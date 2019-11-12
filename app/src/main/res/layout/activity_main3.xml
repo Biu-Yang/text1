@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/Bt_selectPhoto3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="选择图片"
+        android:textSize="25dp"/>
+
+
+    <ImageView
+        android:id="@+id/Iv_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+
+</LinearLayout>
